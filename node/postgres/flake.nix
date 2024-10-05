@@ -29,6 +29,8 @@
           then
             pg_ctl start -l $PGLOG -o "--unix_socket_directories='$PGHOST'"
           fi
+
+          trap "pg_ctl stop" EXIT
         '';
       };
     }
