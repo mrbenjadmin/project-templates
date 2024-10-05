@@ -1,7 +1,7 @@
 {
   description = "A few useful flake templates to get projects running quicker";
 
-  outputs = {
+  outputs = { self }: {
     templates = {
       # node
       node = {
