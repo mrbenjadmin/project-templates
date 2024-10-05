@@ -13,5 +13,5 @@
         description = "Node.js template with postgresql server";
       };
     };
-  }
+  };
 }
