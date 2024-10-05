@@ -29,9 +29,6 @@
           then
             pg_ctl start -l $PGLOG -o "--unix_socket_directories='$PGHOST'"
           fi
-
-          echo "Postgresql server running at `.postgres/socket`, data stored at `.postgres`."
-          echo "You may connect with `psql`."
         '';
       };
     }
