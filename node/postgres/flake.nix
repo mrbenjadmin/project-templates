@@ -16,7 +16,7 @@
         shellHook = ''
           export PGHOST=$PWD/.postgres
           export PGDATA=$PGHOST/data
-          export PGDATABASE=socket
+          export PGDATABASE=postgres
           export PGLOG=$PGHOST/postgres.log
 
           mkdir -p $PGHOST
