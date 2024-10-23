@@ -12,6 +12,10 @@
         path = node/postgres;
         description = "Node.js template with postgresql server";
       };
+      elixir-postgres = {
+        path = elixir/postgres;
+        description = "Elixir template with postgresql server";
+      };
     };
   };
 }
